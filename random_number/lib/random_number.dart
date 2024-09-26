@@ -1,4 +1,3 @@
-// import 'dart:ffi';
 import 'dart:io';
 import 'dart:math';
 import 'package:random_number/bubble_sort.dart';
@@ -7,7 +6,6 @@ import 'package:random_number/piramida_while0.dart';
 void main() {
   stdout.write('How much number u want to generate : ');
   int? number = int.parse(stdin.readLineSync()!);
-  // print("The number is $number");
 
   List<int> numbers = [];
 

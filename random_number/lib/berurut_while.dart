@@ -1,6 +1,5 @@
 import 'package:random_number/berurut_while1.dart';
 import 'package:random_number/berurut_while2.dart';
-// import 'package:random_number/bubble_sort.dart';
 
 piramid_while(numbers) {
   int arrayLength = numbers.length;
