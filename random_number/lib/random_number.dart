@@ -4,6 +4,9 @@ import 'package:random_number/bubble_sort.dart';
 import 'package:random_number/piramida_while0.dart';
 
 void main() {
+  print("====================");
+  print("    RANDOM NUMBER   ");
+  print("====================");
   stdout.write('How much number u want to generate : ');
   int? number = int.parse(stdin.readLineSync()!);
 
