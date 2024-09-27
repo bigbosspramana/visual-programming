@@ -1,15 +1,15 @@
 void main() {
-  List<String> urutan = [];
+  List<String> proyek = [];
 
-  urutan.add('A');
-  urutan.add('B');
-  urutan.add('D');
-  urutan.add('C');
-  urutan.add('E');
-  urutan.add('F');
+  proyek.add('A');
+  proyek.add('B');
+  proyek.add('D');
+  proyek.add('C');
+  proyek.add('E');
+  proyek.add('F');
 
   print('===================');
-  print(' URUTAN PENGERJAAN ');
+  print(' proyek PENGERJAAN ');
   print('===================');
-  print(urutan.join(', '));
+  print(proyek.join(', '));
 }

@@ -1,20 +1,20 @@
 void main() {
-  int bateraiAwal = 100;
-  int bateraiChatting = 1;
+  int baterai = 100;
+  int bateraiChat = 1;
   int bateraiVideo = 2;
   int bateraiGame = 3;
 
-  int waktuChatting = 60;
+  int waktuChat = 60;
   int waktuVideo = 30;
   int waktuGame = 45;
 
-  int totalPenggunaanBaterai = 0;
+  int totalBaterai = 0;
 
-  totalPenggunaanBaterai += (waktuChatting ~/ 5) * bateraiChatting;
-  totalPenggunaanBaterai += (waktuVideo ~/ 5) * bateraiVideo;
-  totalPenggunaanBaterai += (waktuGame ~/ 5) * bateraiGame;
+  totalBaterai += (waktuChat ~/ 5) * bateraiChat;
+  totalBaterai += (waktuVideo ~/ 5) * bateraiVideo;
+  totalBaterai += (waktuGame ~/ 5) * bateraiGame;
 
-  int sisaBaterai = bateraiAwal - totalPenggunaanBaterai;
+  int sisaBaterai = baterai - totalBaterai;
 
   print('==============');
   print(' SISA BATERAI ');
