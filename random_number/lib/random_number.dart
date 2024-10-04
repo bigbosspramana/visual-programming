@@ -23,7 +23,7 @@ void main() {
   Stopwatch stopwatch = Stopwatch();
 
   print("====================");
-  print(" CHOOSE NUMBERS 1-5 ");
+  print(" CHOOSE NUMBERS 1-3 ");
   print("====================");
   print("1. Bubble-Sort");
   print("2. Inversi");
