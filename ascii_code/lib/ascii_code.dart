@@ -109,12 +109,10 @@ const Map<String, List<String>> letterPatterns = {
   ],
 };
 
-// Fungsi untuk membersihkan terminal
 void clearScreen() {
   stdout.write('\x1b[2J\x1b[H');
 }
 
-// Fungsi untuk memindahkan kursor ke posisi tertentu
 void moveCursor(int x, int y) {
   stdout.write('\x1b[${y};${x}H');
 }
